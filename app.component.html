@@ -1,0 +1,15 @@
+<div class="control-section" style="height:300px">
+  <ejs-grid
+    #grid
+    [dataSource]="data"
+    [enableVirtualization]="true"
+    [enableColumnVirtualization]="true"
+    [allowTextWrap]="false"
+    [pageSettings]="options"
+    height="500px"
+    rowHeight="25"
+    (load)="load($event)"
+    [pageSettings]="options"
+  >
+  </ejs-grid>
+</div>
